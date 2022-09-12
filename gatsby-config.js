@@ -8,9 +8,7 @@ module.exports = {
     description: `Un espacio en donde te contaré algunos truquillos sobre cosmética, cuidado facial, cejas, pestañas, nail art y mucho más.`,
     siteUrl: `https://daliastudio.tk/`,
     social: {
-      facebook: `daliastudio.ro`,
-      instagram: `daliastudio.ro`,
-      tiktok: `daliastudio.ro`
+      twitter: `daliastudio.ro`
     },
   },
   plugins: [
