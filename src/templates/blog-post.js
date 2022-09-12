@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -10,6 +11,7 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const image = getImage(post.frontmatter.Image01)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,6 +21,7 @@ const BlogPostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
+          <p><GatsbyImage image={image} alt={post.frontmatter.title} /></p>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
@@ -65,7 +68,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
   return (
     <Seo
       title={post.frontmatter.title}
-      description={post.frontmatter.description || post.excerpt}
+      description={post.frontmatter.image1alt || post.excerpt}
     />
   )
 }
@@ -89,8 +92,19 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        description
+        died
+        born
+        image1alt
+        Image01 {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              blurredOptions: {width: 100}
+              placeholder: BLURRED
+              transformOptions: {cropFocus: CENTER}
+            )
+          }
+      }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
