@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Dalia Studio Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Dalia Studio`,
+      summary: `Un espacio en donde te contaré algunos truquillos sobre cosmética, cuidado facial, cejas, pestañas, nail art y mucho más..`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Un espacio en donde te contaré algunos truquillos sobre cosmética, cuidado facial, cejas, pestañas, nail art y mucho más.`,
+    siteUrl: `https://daliastudio.tk/`,
     social: {
-      twitter: `kylemathews`,
+      facebook: `daliastudio.ro`,
+      instagram: `daliastudio.ro`,
+      tiktok: `daliastudio.ro`
     },
   },
   plugins: [
@@ -88,7 +90,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { order: DESC, fields: [frontmatter___title] },
                 ) {
                   nodes {
                     excerpt
@@ -98,7 +100,9 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      date
+                      died
+                      born
+                      image1alt
                     }
                   }
                 }
@@ -113,8 +117,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Dalia Studio Blog`,
+        short_name: `DaliaStudio`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
