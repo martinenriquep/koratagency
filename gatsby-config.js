@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -88,7 +89,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___title] },
+                  sort: { order: DESC, fields: [frontmatter___date] },
                 ) {
                   nodes {
                     excerpt
@@ -98,9 +99,20 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      died
-                      born
-                      image1alt
+                      excerpt
+                      featuredImage {
+                        childImageSharp {
+                          gatsbyImageData(
+                            width: 500
+                            blurredOptions: {width: 100}
+                            placeholder: BLURRED
+                            transformOptions: {cropFocus: CENTER}
+                            aspectRatio: 0.7
+                          )
+                        }
+                      }
+                      imageExcerpt
+                      date
                     }
                   }
                 }

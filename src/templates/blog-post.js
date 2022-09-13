@@ -11,7 +11,7 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
-  const image = getImage(post.frontmatter.Image01)
+  const image = getImage(post.frontmatter.featuredImage)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -68,7 +68,7 @@ export const Head = ({ data: { markdownRemark: post } }) => {
   return (
     <Seo
       title={post.frontmatter.title}
-      description={post.frontmatter.image1alt || post.excerpt}
+      description={post.frontmatter.imageExcerpt || post.excerpt}
     />
   )
 }
@@ -92,19 +92,21 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        died
-        born
-        image1alt
-        Image01 {
+        excerpt
+        featuredImage {
           childImageSharp {
             gatsbyImageData(
-              width: 800
+              width: 500
               blurredOptions: {width: 100}
               placeholder: BLURRED
               transformOptions: {cropFocus: CENTER}
+              aspectRatio: 0.7
             )
           }
-      }
+        }
+        imageExcerpt
+        date
+      
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
