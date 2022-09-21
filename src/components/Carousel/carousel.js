@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage  } from "gatsby-plugin-image"
 
 
+
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function carousel() {
@@ -50,7 +51,9 @@ export default function carousel() {
 
         <Carousel>
         <Carousel.Item>
-        <GatsbyImage className="d-block w-75" image={getImage(posts[0].frontmatter.featuredImage)} alt={posts[0].frontmatter.title} />
+          <figure>
+            <GatsbyImage className="d-block w-100" image={getImage(posts[0].frontmatter.featuredImage)} alt={posts[0].frontmatter.title} />
+          </figure>
           <Carousel.Caption>
             <span itemProp="headline">{posts[0].frontmatter.title}</span>
             <p dangerouslySetInnerHTML={{
@@ -62,7 +65,7 @@ export default function carousel() {
         </Carousel.Item>
 
         <Carousel.Item>
-        <GatsbyImage className="d-block w-75" image={getImage(posts[1].frontmatter.featuredImage)} alt={posts[1].frontmatter.title} />
+        <GatsbyImage className="d-block w-100" image={getImage(posts[1].frontmatter.featuredImage)} alt={posts[1].frontmatter.title} />
           <Carousel.Caption>
             <span itemProp="headline">{posts[1].frontmatter.title}</span>
             <p dangerouslySetInnerHTML={{
@@ -74,7 +77,7 @@ export default function carousel() {
         </Carousel.Item>
 
         <Carousel.Item>
-        <GatsbyImage className="d-block w-75" image={getImage(posts[2].frontmatter.featuredImage)} alt={posts[2].frontmatter.title[1]} />
+        <GatsbyImage className="d-block w-100" image={getImage(posts[2].frontmatter.featuredImage)} alt={posts[2].frontmatter.title[1]} />
           <Carousel.Caption>
             <span itemProp="headline">{posts[2].frontmatter.title}</span>
             <p dangerouslySetInnerHTML={{

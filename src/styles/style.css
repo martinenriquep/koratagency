@@ -319,6 +319,9 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+ol{
+  padding-left: 0 !important;
+}
 /* Media queries */
 
 @media (max-width: 42rem) {

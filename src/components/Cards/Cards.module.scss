@@ -1,8 +1,13 @@
-.cardStyles{
-    display: flex;
-  }
+
+.styleOl{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
 
 .buttonStyle{
     color: white;
     background-color: rgb(217, 155, 214);
 }
+
