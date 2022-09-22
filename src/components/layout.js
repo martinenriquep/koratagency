@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Header from '../components/header'
 import Footer from '../components/Footer/footer'
 
@@ -14,9 +13,7 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
+      <Header></Header>
     )
   }
 
