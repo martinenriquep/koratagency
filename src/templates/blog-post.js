@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-import * as style from './blog.module.scss'
 
 import Container from 'react-bootstrap/Container';
 
@@ -45,7 +44,7 @@ const BlogPostTemplate = ({
                 padding: 0,
               }}
             >
-              <li className="linkButtNP" >
+              <li>
                 {previous && (
                   <Link style={{
                     textDecoration: `none`
@@ -54,7 +53,7 @@ const BlogPostTemplate = ({
                   </Link>
                 )}
               </li>
-              <li className="linkButtNP" >
+              <li>
                 {next && (
                   <Link  style={{
                     textDecoration: `none`,
