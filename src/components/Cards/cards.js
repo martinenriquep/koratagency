@@ -15,14 +15,13 @@ export default function cards({posts}) {
       const title = post.frontmatter.title || post.fields.slug
 
       return (
-        <Card className="col-lg-3 col-md-4 col-sm-6 col-xs-12 m-5 border-0 shadow" key={post.fields.slug}> 
+        <Card className="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-4 mx-4 border-0 shadow" key={post.fields.slug}> 
+        <Link to={post.fields.slug} itemProp="url">
            <Col >
                <GatsbyImage varian="top" image={getImage(post.frontmatter.featuredImage)} alt={post.frontmatter.title} />
               <Card.Body>
                 <Card.Title>
-                  <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                  </Link>
+                      <span itemProp="headline">{title}</span> 
                 </Card.Title>
                 <Card.Text>
                 <p dangerouslySetInnerHTML={{
@@ -34,6 +33,7 @@ export default function cards({posts}) {
                 <Button className={style.buttonStyle} variant="primary">Leer más</Button>
               </Card.Body>
            </Col>
+           </Link>
         </Card>
   )
 })}

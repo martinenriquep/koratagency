@@ -1,7 +1,12 @@
 .footer{
-    color: white;
+    color: black;
     width: 100%;
     line-height: 60px;
-    background-color: rgb(236, 90, 190);
+    background-color: #FFECEC;
     text-align: center;
+}
+
+.footer a{
+    color: black !important;
+    font-weight: 700;
 }

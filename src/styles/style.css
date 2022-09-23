@@ -230,7 +230,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: black !important;
+  color: black;
   text-decoration: none !important;
 }
 
@@ -334,4 +334,54 @@ ol{
   ol {
     list-style-position: inside;
   }
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+  box-shadow:  none !important;
+  color: #FD1C5B !important;
+
+}
+
+.navbar{
+  background-color: #FFECEC !important;
+}
+
+.nav-link{
+  font-family: Lato !important;
+  color: #4f4e4e;
+  padding-left: 14px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+}
+
+.nav-link:hover, .nav-link:focus{
+  color: black !important;
+}
+
+
+.navbar-ds{
+  margin-bottom: 8px;
+}
+
+.card a{
+  color: black !important;
+}
+
+.blog-post-nav a{
+  color: black !important;
+  font-weight: 700;
+}
+
+.blog-post-nav a:hover{
+  color: #FD1C5B !important;
+}
+
+.navbar .link-logo{
+  height: 60px;
+}
+
+#basic-navbar-nav{
+  margin-top: 5px;
 }
