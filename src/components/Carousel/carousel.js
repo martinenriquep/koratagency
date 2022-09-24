@@ -58,12 +58,7 @@ export default function carousel() {
                   <GatsbyImage className="d-block w-100" image={getImage(posts[0].frontmatter.featuredImage)} alt={posts[0].frontmatter.title} />
                 </figure>
                 <Carousel.Caption>
-                  <span itemProp="headline">{posts[0].frontmatter.title}</span>
-                  <p dangerouslySetInnerHTML={{
-                        __html: posts[0].frontmatter.excerpt || posts.excerpt,
-                      }}
-                      itemProp="excerpt"
-                    />
+                  <span className="carousel-title" itemProp="headline">{posts[0].frontmatter.title}</span>
                 </Carousel.Caption>
                 </Link>
             </Carousel.Item>
@@ -73,12 +68,7 @@ export default function carousel() {
         <Link to={posts[1].fields.slug} itemProp="url">
         <GatsbyImage className="d-block w-100" image={getImage(posts[1].frontmatter.featuredImage)} alt={posts[1].frontmatter.title} />
           <Carousel.Caption>
-            <span itemProp="headline">{posts[1].frontmatter.title}</span>
-            <p dangerouslySetInnerHTML={{
-                  __html: posts[1].frontmatter.excerpt || posts.excerpt,
-                }}
-                itemProp="excerpt"
-              />
+            <span className="carousel-title" itemProp="headline">{posts[1].frontmatter.title}</span>
           </Carousel.Caption>
           </Link>
         </Carousel.Item>
@@ -87,12 +77,7 @@ export default function carousel() {
         <Link to={posts[2].fields.slug} itemProp="url">
         <GatsbyImage className="d-block w-100" image={getImage(posts[2].frontmatter.featuredImage)} alt={posts[2].frontmatter.title[1]} />
           <Carousel.Caption>
-            <span itemProp="headline">{posts[2].frontmatter.title}</span>
-            <p dangerouslySetInnerHTML={{
-                  __html: posts[2].frontmatter.excerpt || posts.excerpt,
-                }}
-                itemProp="excerpt"
-              />
+            <span className="carousel-title" itemProp="headline">{posts[2].frontmatter.title}</span>
           </Carousel.Caption>
           </Link>
         </Carousel.Item>

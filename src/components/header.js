@@ -8,8 +8,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function header() {
   return (
-    <Navbar expand="lg">
-      <Container>
+    <Navbar expand="navbar-expand-lg shadow p-3 mb-5 fixed-top">
+      <Container className=''>
         <Link className="link-logo" to="/">
         <Navbar.Brand >
             <StaticImage
@@ -24,13 +24,15 @@ export default function header() {
             />
         </Navbar.Brand>
         </Link>
+       
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="navbar-ds" id="basic-navbar-nav">
-          <Nav className="me-auto ml-1">
+          <Nav className="ms-auto">
             <Nav.Link className="stylesMenu" href="/">HOME</Nav.Link>
             <Nav.Link className="stylesMenu" href="/">BLOG</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
   )
