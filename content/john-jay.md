@@ -1,5 +1,5 @@
 ---
-title: John Jay
+title: John Jay1
 excerpt: Benjamin Franklin FRS FRSA FRSE (January 17, 1706 [O.S. January 6, 1705][Note 1] – April 17, 1790) was a British American polymath and one of the Founding Fathers of the United States.
 featuredImage: ../static/images/john-jay.jpg
 imageExcerpt: Portrait of John Jay

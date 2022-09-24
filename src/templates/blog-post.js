@@ -24,11 +24,16 @@ const BlogPostTemplate = ({
             itemType="http://schema.org/Article"
           >
             <header>
-              <p><GatsbyImage image={image} alt={post.frontmatter.title} /></p>
-              <h1 itemProp="headline">{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.date}</p>
+              <h1 className="titleBlog" itemProp="headline">{post.frontmatter.title}</h1>
+              <p className="descripBlog" dangerouslySetInnerHTML={{
+                      __html: post.frontmatter.excerpt || post.excerpt,
+                    }}
+                    itemProp="excerpt"
+                  />
+               <p className="dateBlog">{post.frontmatter.date}</p>
+              <figure><GatsbyImage image={image} alt={post.frontmatter.title} /></figure>
             </header>
-            <section
+            <section className="textBlog"
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
             />

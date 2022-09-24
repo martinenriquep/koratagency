@@ -29,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
        <Container>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center containerCarousel">
             <Col sm={10}><Carousel posts={posts} /></Col>
           </Row>
       </Container>
