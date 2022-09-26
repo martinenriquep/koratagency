@@ -58,7 +58,7 @@ const BlogPostTemplate = ({
                   </Link>
                 )}
               </li>
-              <li>
+              <li>           
                 {next && (
                   <Link  style={{
                     textDecoration: `none`,
@@ -125,6 +125,17 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(
+              width: 500
+              blurredOptions: {width: 100}
+              placeholder: BLURRED
+              transformOptions: {cropFocus: CENTER}
+              aspectRatio: 0.7
+            )
+          }
+        }
       }
     }
     next: markdownRemark(id: { eq: $nextPostId }) {
@@ -133,6 +144,17 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            gatsbyImageData(
+              width: 500
+              blurredOptions: {width: 100}
+              placeholder: BLURRED
+              transformOptions: {cropFocus: CENTER}
+              aspectRatio: 0.7
+            )
+          }
+        }
       }
     }
   }

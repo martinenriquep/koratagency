@@ -409,6 +409,8 @@ ol{
 
 @media (min-width: 576px) { 
 
+
+
   .btn-primary{
     --bs-btn-padding-x: 5.75em !important;
   }
@@ -518,3 +520,15 @@ main{
     color: #6b819e;
     line-height: 1.5rem;
 }
+
+
+
+.contenImageNextPrev {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+  }
+  .imageNextPrev {
+  width: 100%;
+  height: auto;
+  }

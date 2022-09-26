@@ -9,7 +9,7 @@ Con una legión de fanáticos famosos y una alternativa natural a las extensione
 
 Para aquellos que quieren el aspecto de las extensiones de pestañas sin el mantenimiento, Lash Lift es justo lo que necesitan. En Nails & Brows Mayfair, usamos el “YUMI Lash Lift & Tint” para crear pestañas impresionantes que duran. El tratamiento es indoloro, relajante y tarda unos 60 minutos en completarse.
 
-![Lifting1](/static/images/lifting1.jpg)
+![Lifting1](../static/images/lifting1.jpg)
 
 ## ¿Cuáles son los beneficios de un levantamiento de pestañas?
 Aunque los beneficios de un Lash Lift pueden ser infinitos, hemos recopilado algunos de los mejores.
@@ -26,7 +26,7 @@ Dado que el tiempo de tratamiento es de solo 60 minutos, esto se puede hacer dur
 
 La mejor parte es la longevidad. Puede durar entre 6-8 semanas.
 
-![Lifting2](/iblog-daliastudio/static/images/lifting2.jpg)
+![Lifting2](../static/images/lifting2.jpg)
 
 ## Que esperar
 48 horas antes del tratamiento se realizará un test de alergia para comprobar que no eres alérgico a los productos utilizados.

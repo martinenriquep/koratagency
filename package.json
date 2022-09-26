@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "dalia-studio-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "El blog de Dalia Studio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dalia Studio <daliastudio.ro@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
