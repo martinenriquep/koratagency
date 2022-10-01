@@ -521,14 +521,23 @@ main{
     line-height: 1.5rem;
 }
 
-
-
-.contenImageNextPrev {
-  width: 96%;
-  max-width: 960px;
-  margin: 0 auto;
+  strong{
+    color: #6b819e;
   }
-  .imageNextPrev {
-  width: 100%;
-  height: auto;
+
+
+  h2::before, h3::before {
+    content: "|";
+    margin-right: .3125rem;
+    color: #7da4d6 !important;
+  
+
+  }
+
+  h1, h2, h3{
+    margin: 1.5rem 0 0.8rem 0!important;
+  }
+
+  .gatsby-resp-image-wrapper{
+    margin-top: 10px !important;
   }
