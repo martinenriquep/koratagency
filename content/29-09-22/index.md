@@ -1,5 +1,5 @@
 ---
-title: ¿𝗣𝗼𝗿 𝗾𝘂𝗲 𝗰𝗮𝗱𝗮 𝘃𝗲𝘇 𝗺𝗮𝘀 𝗺𝘂𝗷𝗲𝗿𝗲𝘀 𝗲𝘀𝘁𝗮́𝗻 𝗼𝗽𝘁𝗮𝗻𝗱𝗼 𝗽𝗼𝗿 𝗰𝗼𝗻𝘀𝘂𝗺𝗶𝗿 𝗲𝘀𝘁𝗮 𝗺𝗮́𝗴𝗶𝗰𝗮 𝘃𝗶𝘁𝗮𝗺𝗶𝗻𝗮 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗯𝗶𝗼𝘁𝗶𝗻𝗮?
+title: ¿Porque cada vez mas mujeres están optando por consumir esta mágica vitamina llamada Biotina?
 excerpt: "No sería bueno si una pequeña cápsula fuera todo lo que necesita para una piel, cabello y uñas saludables? Si sigue a personas influyentes en las redes sociales, es posible que haya encontrado uno o dos anuncios de suplementos que prometen resolver todos sus problemas de belleza, e incluso podría tener la tentación de probarlos. Una que probablemente suene familiar es la biotina (también conocida como vitamina B7)"
 featuredImage: ./biotina.jpg
 imageExcerpt: biotina

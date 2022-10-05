@@ -14,6 +14,22 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
+    { 
+      resolve: `gatsby-transformer-remark`, 
+      options: { 
+        excerpt_separator: `<!-- cut -->` 
+      } 
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-transformer-remark`,
+          },
+        ],
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

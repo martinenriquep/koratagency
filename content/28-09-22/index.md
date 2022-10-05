@@ -1,6 +1,6 @@
 ---
 title: Guía para principiantes para hacer tus cejas como un profesional
-excerpt: "¿Buscas unas cejas que asombren? Te tenemos cubierto. Esta característica facial que a menudo se pasa por alto es más importante de lo que piensa: sus cejas enmarcan su rostro y pueden hacer que sus ojos se vean más abiertos y más despiertos, dependiendo de cómo los forme.
+excerpt: "¿Buscas unas cejas que asombren? Te tenemos cubierto. <!-- cut --> Esta característica facial que a menudo se pasa por alto es más importante de lo que piensa: sus cejas enmarcan su rostro y pueden hacer que sus ojos se vean más abiertos y más despiertos, dependiendo de cómo los forme.
 Incluso si nunca ha levantado un lápiz de cejas o se ha estado depilando y arreglando el vello de las cejas durante mucho tiempo, definir sus cejas puede parecer intimidante. Pero no te estreses: crear unas cejas perfectas es bastante fácil. El truco es seguir la forma natural de tus cejas y trabajar con lo que tienes."
 featuredImage: ./cejas-profesional4.jpg
 imageExcerpt: Como hacer unas cejas profesional 

@@ -13,6 +13,7 @@ import Col from 'react-bootstrap/Col';
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  
 
   if (posts.length === 0) {
     return (
@@ -56,13 +57,12 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [frontmatter___title], order: DESC }) {
       nodes {
-        excerpt
+        excerpt(pruneLength: 160)
         fields {
           slug
         }
         frontmatter {
             title
-            excerpt
             featuredImage {
               childImageSharp {
                 gatsbyImageData(

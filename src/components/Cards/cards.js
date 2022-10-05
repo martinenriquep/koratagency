@@ -25,7 +25,7 @@ export default function cards({posts}) {
                 </Card.Title>
                 <Card.Text>
                 <p dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.excerpt || post.excerpt,
+                      __html: post.excerpt || post.excerpt,
                     }}
                     itemProp="excerpt"
                   />
