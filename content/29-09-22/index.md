@@ -3,7 +3,7 @@ title: ¿Porque cada vez mas mujeres están optando por consumir esta mágica vi
 excerpt: "No sería bueno si una pequeña cápsula fuera todo lo que necesita para una piel, cabello y uñas saludables? Si sigue a personas influyentes en las redes sociales, es posible que haya encontrado uno o dos anuncios de suplementos que prometen resolver todos sus problemas de belleza, e incluso podría tener la tentación de probarlos. Una que probablemente suene familiar es la biotina (también conocida como vitamina B7)"
 featuredImage: ./biotina.jpg
 imageExcerpt: biotina
-date: 2022-09-28 15:05:10 UTC
+date: Septiembre 26, 2022
 ---
 
 Promocionada como el secreto para una tez clara (sin mencionar las uñas y el cabello más largos y fuertes), la biotina tiene un papel en el metabolismo de la glucosa, las grasas y las proteínas, según nuestros expertos, pero ¿significa eso necesariamente que debe ser complementarlo?Antes de pedir ciegamente una botella de tabletas de biotina en línea, descubra lo que los expertos tienen que decir sobre su eficacia y si vale la pena probarlo. A continuación, las dermatólogas certificadas por la junta con sede en Nueva York, Marisa Garshick , MD, de Dermatología Médica y Cirugía Cosmética, y Debra Jaliman , MD, abordan los rumores sobre los beneficios de la biotina para la piel. Sigue leyendo para descubrir si hay pruebas científicas que respalden las afirmaciones o si la píldora mágica de belleza es solo una quimera.

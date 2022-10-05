@@ -4,7 +4,7 @@ excerpt: "¿Buscas unas cejas que asombren? Te tenemos cubierto. <!-- cut --> Es
 Incluso si nunca ha levantado un lápiz de cejas o se ha estado depilando y arreglando el vello de las cejas durante mucho tiempo, definir sus cejas puede parecer intimidante. Pero no te estreses: crear unas cejas perfectas es bastante fácil. El truco es seguir la forma natural de tus cejas y trabajar con lo que tienes."
 featuredImage: ./cejas-profesional4.jpg
 imageExcerpt: Como hacer unas cejas profesional 
-date: 2022-09-28 15:04:10 UTC
+date: Septiembre 28, 2022
 ---
 Siga a continuación y le enseñaremos cómo arreglar sus cejas como un maquillador profesional en cinco simples pasos. Y para aquellos que realmente buscan realzar sus cejas naturales a alturas nuevas y más audaces (piensen en Cara Delevingne y Lily Collins), estos trucos para conseguir cejas más gruesas les ayudarán en poco tiempo.
 

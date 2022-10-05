@@ -3,7 +3,7 @@ title: 9 formas de deshinchar los ojos, según los dermatólogos
 excerpt: "No pensaría que descansar lo suficiente y comer una dieta saludable haría que la hinchazón debajo de los ojos desapareciera, pero, por desgracia, todavía vemos bolsas debajo de los ojos. Los cambios debajo de los ojos son inevitables a medida que envejecemos (decoloración oscura o azulada, apariencia deprimida, hinchazón, bolsas , etc.), dice el dermatólogo certificado por la junta, el Dr. Robert Finney. Es necesario identificar la causa de la hinchazón debajo de los ojos antes de determinar cómo ayudar a tratarla"
 featuredImage: ./ojos.png
 imageExcerpt: Hinchazon de ojos
-date: Septiembre 28, 2022
+date: Septiembre 27, 2022
 ---
 
 "Los ojos son áreas de piel altamente especializada que es vulnerable a varios sistemas diferentes y susceptible a varios cambios que afectan su apariencia", dice el dermatólogo certificado por la junta, el Dr. Corey L. Hartman. "La genética, la retención de líquidos, las alergias , la exposición al sol, la falta de sueño y la mala alimentación pueden tener un impacto negativo en la apariencia de los párpados superiores e inferiores".
