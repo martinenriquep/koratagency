@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Dalia Studio Blog`,
+    title: `Korat Agency Web`,
     author: {
-      name: `Dalia Studio`,
-      summary: `Un espacio en donde te contaré algunos truquillos sobre cosmética, cuidado facial, cejas, pestañas, nail art y mucho más..`,
+      name: `Korat Agency`,
+      summary: `Agencia de Publicidad especializada en Redes Sociales : Facebook, Instagram y TikTok.`,
     },
-    description: `Un espacio en donde te contaré algunos truquillos sobre cosmética, cuidado facial, cejas, pestañas, nail art y mucho más.`,
-    siteUrl: `https://daliastudio.tk/`,
+    description: `Agencia de Publicidad especializada en Redes Sociales : Facebook, Instagram y TikTok.`,
+    siteUrl: `https://koratagency.com/`,
     social: {
-      twitter: `daliastudio.ro`
+      twitter: `koratagency`
     },
   },
   plugins: [
@@ -150,8 +150,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dalia Studio Blog`,
-        short_name: `DaliaStudio`,
+        name: `Korat Agency Web`,
+        short_name: `Korat Agency`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
