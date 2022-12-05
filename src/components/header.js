@@ -17,8 +17,6 @@ export default function header() {
             layout="fixed"
             formats={["auto", "webp", "avif"]}
             src="../images/logo.png"
-            width={140}
-            height={60}
             quality={95}
             alt="Profile picture"
             />

@@ -341,7 +341,7 @@ ol{
 }
 
 .navbar{
-  background-color: #FFECEC !important;
+  background-color: #898AFF !important;
 }
 
 .nav-link{
@@ -378,6 +378,7 @@ ol{
 
 .navbar .link-logo{
   height: 60px;
+  width: 100px;
 }
 
 #basic-navbar-nav{
