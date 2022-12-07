@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function header() {
   return (
-    <Navbar expand="lg shadow mb-5 fixed-top">
+    <Navbar expand="lg shadow mb-5">
       <Container className='header-wrap'>
         <Link className="link-logo" to="/">
         <Navbar.Brand >

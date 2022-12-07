@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from '../components/header'
+import Hero from '../components/hero'
 import Footer from '../components/Footer/footer'
 
 const Layout = ({ location, title, children }) => {
@@ -20,6 +21,7 @@ const Layout = ({ location, title, children }) => {
   return (
     <div data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
+      <section> <Hero/> </section>
       <main>{children}</main>
       <Footer></Footer>
     </div>

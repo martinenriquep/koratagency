@@ -4,11 +4,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Cards from "../components/Cards/cards"
-import Carousel from "../components/Carousel/carousel"
 
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -29,11 +27,6 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-       <Container>
-          <Row className="justify-content-center containerCarousel">
-            <Col sm={10}><Carousel posts={posts} /></Col>
-          </Row>
-      </Container>
 
       <Container fluid className="text-center">
           <Cards posts={posts} />
