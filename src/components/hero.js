@@ -23,7 +23,7 @@ export default function hero() {
                     2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"/>
                     </svg>
                   </span> 
-                  Creamos tu pagina de negocio en redes sociales</li>
+                  <span className='listTextHero'>Creamos tu pagina de negocio en redes sociales</span></li>
               <li><span class="check-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                     fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
@@ -32,7 +32,7 @@ export default function hero() {
                     2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"/>
                     </svg>
                   </span> 
-                  Desarrollamos el contenido para tu Facebook e Instagram</li>
+                  <span className='listTextHero'>Desarrollamos el contenido para tu Facebook e Instagram</span></li>
               <li><span class="check-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                     fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
@@ -41,10 +41,10 @@ export default function hero() {
                     2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z"/>
                     </svg>
                   </span> 
-                  Diseñamos tus posteos mensuales y los publicamos</li>
+                  <span className='listTextHero'>Diseñamos tus posteos mensuales y los publicamos</span></li>
             </ul>
 
-            <button>Mas informacion</button>
+            <button>Más Información</button>
 
           </div>
           <div className='derHero'>
