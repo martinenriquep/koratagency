@@ -8,6 +8,7 @@ export default function hero() {
     <>
       <div className='hero'>
           <div className='izqHero'>
+            
             <h1 className='titleHero'>
               ¿Necesitas ayuda en <span>Internet o Redes Sociales</span> para tu negocio?
             </h1>

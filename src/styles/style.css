@@ -445,166 +445,199 @@ ol{
     color: yellow;
     font-family:'DM+Sans', cursive;
   }
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+ /*DEFAULT MOBILES----------------------------------------------------------------------------------------*/
+  /*---------------------HEADER*/
+  header .header-wrap{
+    padding-bottom: 7px;
+  }
 
- 
+  header .nav-link{
+    color: #290D68;
+    padding-left: 14px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
 
-  /*DEFAULT--Pantallas pequeñas (móviles en landscape de más de 576px----------------------------------------------*/
+  header .navbar-toggler{
+    border: none;
+    font-size: 1.7rem;
+  }
+
+  header .navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+  }
+
+  header .stylesMenu:hover{
+    border-bottom: solid 1px #FCE868;
+  }
+  .nav-link:hover, .nav-link:focus{
+    color: #FCE868 !important;
+    
+  } 
+  
+  .navbar-ds{
+    margin-bottom: 8px;
+  }
+
+
+  /*---------------------HERO*/
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .izqHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 14px;
+    
+  }
+
+  .hero .izqHero .titleHero{
+    text-align: center;
+    font-size: 3.2em;
+    color: white;
+  }
+
+  .hero .izqHero h1 span{
+    color: #FCE868;
+  }
+
+  .hero .helpHero{
+    color: #290D68;
+    background-color:#FCE868 ;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .hero .listHero{
+    list-style-type: none;
+  }
+
+  .check-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    color: #290D68;
+    background: #FCE868 ;
+    border-radius:50%;
+    margin-right:10px;
+    margin-top: 10px;
+    }
+
+  .hero .listHero li{
+        margin:10px;
+        display: flex;
+    }
+  
+  .hero .listHero .listTextHero{
+    font-size: 1.7em;
+    color: white;
+    font-weight: 500;
+  }
+
+  .hero .listHero svg {
+       height :15px;
+       width :15px;
+     }
+
+
+  .izqHero>button{
+    font-size: 1.2em;
+    padding: 15px 25px; 
+    background-color: yellow;
+    color: #290D68;
+    cursor: pointer;
+    border: solid 1px yellow;
+    border-radius: 1.5em;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+  }
+  
+  .izqHero>button:hover{
+    background-color:#290D68 ;
+    color: yellow;
+    transition: all 0.2s ease;
+    border: solid 1px #290D68;
+  }
+
+  .derHero {
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  /*--Pantallas pequeñas (móviles en landscape de más de 576px----------------------------------------------*/
   @media (min-width: 576px) {
-    /*---------------------HEADER*/
-    header .header-wrap{
-      padding-bottom: 7px;
-    }
-
-    header .nav-link{
-      color: #290D68;
-      padding-left: 14px !important;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-      letter-spacing: 0.1rem;
-      margin-top: 10px;
-      font-size: 1.3rem;
-      font-weight: 600;
-    }
-
-    header .navbar-toggler{
-      border: none;
-      font-size: 1.7rem;
-    }
-
-    header .navbar-toggler:focus{
-      border: none;
-      box-shadow: none;
-    }
-
-    header .stylesMenu:hover{
-      border-bottom: solid 1px #FCE868;
-    }
-    .nav-link:hover, .nav-link:focus{
-      color: #FCE868 !important;
-      
-    }
-    
-    
-    .navbar-ds{
-      margin-bottom: 8px;
-    }
-
-
-    /*---------------------HERO*/
-    .hero{
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      height: 70vh;
-      overflow: hidden;
-      flex-wrap: wrap;
-      height: auto;
-      margin-bottom: 40px;
-    }
-    .izqHero{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      
-    }
-  
     .hero .izqHero .titleHero{
-      text-align: center;
-      font-size: 3.2rem;
-      align-items: left;
-      color: white;
-    }
-  
-    .hero .izqHero h1 span{
-      color: #FCE868;
-    }
-
-    .hero .helpHero{
-      color: #290D68;
-      background-color:#FCE868 ;
-      font-size: 3rem;
-      font-weight: 600;
-      text-align: center;
-    }
-  
-    .hero .listHero{
-      list-style-type: none;
-    }
-
-    .check-icon{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 25px;
-      width: 25px;
-      color: #290D68;
-      background: #FCE868 ;
-      border-radius:50%;
-      margin-right:10px;
-      margin-top: 10px;
-      }
-
-    .hero .listHero li{
-          margin:10px;
-          display: flex;
-      }
-    
-    .hero .listHero .listTextHero{
-      font-size: 1.7rem;
-      color: white;
-      font-weight: 500;
-    }
-
-    .hero .listHero svg {
-         height :15px;
-         width :15px;
-       }
-
-    
-  
-    .izqHero>button{
-      font-size: 1.2rem;
-      padding: 15px 25px; 
-      background-color: yellow;
-      color: #290D68;
-      cursor: pointer;
-      border: solid 1px yellow;
-      border-radius: 1.5rem;
-      font-size: 1.1rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      text-align: center;
-      letter-spacing: 0.05em;
-      margin-bottom: 40px;
-    }
-    
-    .izqHero>button:hover{
-      background-color:#290D68 ;
-      color: yellow;
-      transition: all 0.2s ease;
-      border: solid 1px #290D68;
-    }
-  
-    .derHero {
-      width: 96%;
-      max-width: 960px;
-      margin: 0 auto;
+      font-size: 3.5em;
     }
    }
   
   /*Pantallas medianas (tablets de más de 768px)-----------------------------------------------------*/
   @media (min-width: 768px) { 
+    .hero .izqHero .titleHero{
+      font-size: 4em;
+    }
+
+    .izqHero{
+      max-width: 100%;
+    }
 
    }
   
   /*Pantallas grandes (desktops de más de 992px)-----------------------------------------------------*/
   @media (min-width: 992px) { 
+    .hero .izqHero .titleHero{
+      font-size: 4.5em;
+    }
+    .izqHero{
+      max-width: 50%;
+    }
+
+    .derHero {
+      max-width: 50%;
+    }
 
   }
   
  /*Pantallas muy grandes (desktops de más de 1200px)-----------------------------------------------------*/
   @media (min-width: 1200px) { 
+    .hero .izqHero .titleHero{
+      font-size: 5em;
+    }
 
+    .izqHero{
+      max-width: 50%;
+    }
+
+    .derHero {
+      max-width: 50%;
+    }
    }
   
+

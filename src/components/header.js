@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-import {Nav, Navbar, Container} from 'react-bootstrap'
+import {Nav, Navbar} from 'react-bootstrap'
 
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -9,7 +9,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function header() {
   return (
     <Navbar expand="lg shadow mb-5">
-      <Container className='header-wrap'>
+      <div className='header-wrap container-lg'>
         <Link className="link-logo" to="/">
         <Navbar.Brand >
             <StaticImage
@@ -31,7 +31,7 @@ export default function header() {
           </Nav>
         </Navbar.Collapse>
         
-      </Container>
+      </div>
     </Navbar>
   )
 }
