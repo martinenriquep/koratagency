@@ -4,8 +4,10 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Cards from "../components/Cards/cards"
+import Hero from "../components/hero"
+import SocialInfo from "../components/socialInfo"
 
-import Container from 'react-bootstrap/Container';
+
 
 
 const BlogIndex = ({ data, location }) => {
@@ -28,9 +30,11 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
 
-      <Container fluid className="text-center">
-          <Cards posts={posts} />
-      </Container>
+      <div className="text-center containerMar">
+          <Hero/>
+          <SocialInfo/>
+          <Cards posts={posts} />    
+      </div>
       
           
     </Layout>

@@ -7,7 +7,7 @@ export default function footer() {
         <div>   
             © {new Date().getFullYear()}, Todos los derechos reservados por
             {` `}
-            <a href="https://www.daliastudio.tk">Dalia Studio</a>
+            <a href="https://www.daliastudio.tk">Korat Agency</a>
         </div>    
     </footer>
   )

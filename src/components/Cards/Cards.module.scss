@@ -1,9 +1,10 @@
-
-.styleOl{
+/*
+body .styleOl{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
+  margin: 0 40px !important;
   
 }
 
@@ -23,3 +24,9 @@
 .card-title a{
   color: black !important;
 }
+
+.card-body{
+  background-color: #5f20f3;
+
+}
+*/

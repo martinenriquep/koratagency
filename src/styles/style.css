@@ -363,11 +363,6 @@ ol{
 }
 
 
-.card{
-  background-color: #FFECEC !important ;
-}
-
-
 .card a {
   border-radius: 12px !important;
   overflow: hidden;
@@ -453,6 +448,7 @@ ol{
   /*---------------------HEADER*/
   header .header-wrap{
     padding-bottom: 7px;
+    margin: 0 40px;
   }
 
   header .nav-link{
@@ -498,7 +494,7 @@ ol{
     overflow: hidden;
     flex-wrap: wrap;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   .izqHero{
     display: flex;
@@ -554,6 +550,7 @@ ol{
     font-size: 1.7em;
     color: white;
     font-weight: 500;
+    text-align: left;
   }
 
   .hero .listHero svg {
@@ -562,13 +559,13 @@ ol{
      }
 
 
-  .izqHero>button{
+  .izqHero button{
     font-size: 1.2em;
     padding: 15px 25px; 
-    background-color: yellow;
+    background-color: #FCE868;
     color: #290D68;
     cursor: pointer;
-    border: solid 1px yellow;
+    border: solid 1px #FCE868;
     border-radius: 1.5em;
     font-size: 1.1em;
     font-weight: 700;
@@ -578,9 +575,9 @@ ol{
     margin-bottom: 40px;
   }
   
-  .izqHero>button:hover{
+  .izqHero button:hover{
     background-color:#290D68 ;
-    color: yellow;
+    color: #FCE868;
     transition: all 0.2s ease;
     border: solid 1px #290D68;
   }
@@ -589,6 +586,73 @@ ol{
     height: auto;
     max-width: 960px;
     margin: 0 auto;
+  }
+
+
+  .imgSoInf-1{
+    height: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    display: none;
+  }
+
+  body .wrapButton{
+    align-items: flex-start;
+  }
+
+
+   /*--CARD----------------------------------------------*/
+   body .card{
+    background-color: transparent;
+    border: none;
+    max-width: 430px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   .card figure{
+    margin: 0;
+   }
+
+   .card figure img{
+    height: 210px;
+   }
+
+   .card .card-body{
+    background-color:#5f20f3 ;
+   }
+
+   .card .card-title{
+    color: #FCE868;
+    font-weight: 500;
+   }
+
+   .card .card-text{
+    color: white;
+   }
+
+   .card .card-button{
+    font-size: 1.2em;
+    padding: 10px 20px; 
+    background-color: #FCE868;
+    color: #290D68;
+    cursor: pointer;
+    border: solid 1px #FCE868;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    margin-top: 5px;
+   }
+
+   .card .card-button:hover{
+    background-color:#290D68 ;
+    color: #FCE868;
+    transition: all 0.2s ease;
+    border: solid 1px #290D68;
   }
 
   /*--Pantallas pequeñas (móviles en landscape de más de 576px----------------------------------------------*/
@@ -612,6 +676,9 @@ ol{
   
   /*Pantallas grandes (desktops de más de 992px)-----------------------------------------------------*/
   @media (min-width: 992px) { 
+    Body .containerMar{
+      margin: 0 40px;
+    }
     .hero .izqHero .titleHero{
       font-size: 4.5em;
     }
@@ -621,6 +688,13 @@ ol{
 
     .derHero {
       max-width: 50%;
+    }
+
+    .imgSoInf-1{
+      display: block;
+    }
+    .imgSoInf-2{
+      display: none;
     }
 
   }
