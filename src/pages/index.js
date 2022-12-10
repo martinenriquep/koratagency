@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import Cards from "../components/Cards/cards"
 import Hero from "../components/hero"
 import SocialInfo from "../components/socialInfo"
+import Servicios from '../components/servicios/servicios'
 
 
 
@@ -33,7 +34,9 @@ const BlogIndex = ({ data, location }) => {
       <div className="text-center containerMar">
           <Hero/>
           <SocialInfo/>
-          <Cards posts={posts} />    
+          <Cards posts={posts} />
+          <Servicios/> 
+
       </div>
       
           
